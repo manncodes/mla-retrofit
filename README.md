@@ -16,6 +16,12 @@ A toolkit for retrofitting Multi-head Latent Attention (MLA) to pretrained langu
 - 🚀 Compatible with positional embeddings (RoPE)
 - 📊 Performance benchmarks comparing GQA and MLA
 
+## Quick Demo
+
+Try it in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manncodes/mla-retrofit/blob/main/examples/mla_retrofit_demo.ipynb)
+
+The Colab notebook demonstrates converting a small model from GQA to MLA and testing its performance.
+
 ## 🤔 What is MLA?
 
 Multi-head Latent Attention (MLA) is an attention mechanism that uses a low-rank factorization of the key and value projection matrices. Instead of directly projecting the input to the key and value spaces, MLA first projects to a smaller latent space and then expands back to the full dimensionality.
@@ -148,3 +154,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+<p align="center">Made with ❤️ by the MLA-Retrofit team</p>
